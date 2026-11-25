@@ -66,7 +66,7 @@
 
 404humans.xyz operates a decentralized billboard platform called the 402 Wall, where each pixel block can be owned via blockchain payment. Users can view the wall, purchase unclaimed blocks by answering HTTP 402 challenges, and programmatically interact via a public API. The service runs on the Ethereum-compatible network eip155:8453, offering a novel way to embed reputation and digital art on the web. It provides endpoints for canvas retrieval, block acquisition, pixel painting, and agent registration, all documented in OpenAPI and MCP formats.
 
-**Areas:** On-chain Advertising · API
+**Areas:** On-chain Advertising
 
 ## 404humans.xyz on APIs.io
 
@@ -80,11 +80,17 @@ Everything profiled for 404humans.xyz is published on APIs.io rather than in thi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [404humans-xyz-mcp.yml](https://apis.io/servers/404humans-xyz/404humans-xyz-mcp-yml/)
+
 #### Security (1)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [404Humans Xyz Domain Security](https://apis.io/security/404humans-xyz/404humans-xyz-domain-security/)
+- [404humans.xyz Domain Security](https://apis.io/security/404humans-xyz/404humans-xyz-domain-security/)
 
 ## Where to find this API
 
@@ -95,18 +101,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 8.4** — minimal · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 6.8** — minimal · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
+| Discoverability | 63.3 |
 | Contract quality | 0.0 |
-| Contract governance | 16.4 |
+| Contract governance | 4.5 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 7.1 |
 | Access clarity | 0.0 |
 
-**Agent readiness 3.1** — human-only
+**Agent readiness 3.4** — human-only
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -131,8 +137,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 4.9** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/404humans-xyz/](https://apis.io/providers/404humans-xyz/).
 
